@@ -13,8 +13,8 @@ class Headview extends Component{
             <div className="right">
                 <ul>
                     <li><Link to='/'>Home</Link></li>
-                    <li><Link to='/about'>About</Link></li>
-                    <li><Link to='/link'>link</Link></li>
+                    <li><Link to='/About'>About</Link></li>
+                    <li><Link to='/Link'>link</Link></li>
                 </ul>
             </div>
         </div>
