@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom'
 import met from "../images/meteor.png";
 
 class Headview extends Component {
@@ -11,9 +12,9 @@ class Headview extends Component {
             </div>
             <div className="right">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Links</a></li>
+                    <li><Link to="/home">Home</Link></li>
+                    <li><Link to="/about">About</Link></li>
+                    <li><Link to="/link">Link</Link></li>
                 </ul>
             </div>
         </div>
