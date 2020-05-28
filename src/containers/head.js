@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import met from "../images/meteor.png";
+import {Link} from 'react-router-dom'
 
-var Headview = () => {
+class Headview extends Component{
+    render(){
     return(
         <div className="forhead" >
             <div className="left">
@@ -10,13 +12,13 @@ var Headview = () => {
             </div>
             <div className="right">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Links</a></li>
+                    <li><Link to='/'>Home</Link></li>
+                    <li><Link to='/about'>About</Link></li>
+                    <li><Link to='/link'>link</Link></li>
                 </ul>
             </div>
         </div>
     );
 }
-
+}
 export default Headview;

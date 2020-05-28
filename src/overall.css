@@ -19,7 +19,7 @@
     position: fixed;
     opacity: 0.8;
     color:rgb(238, 238, 238);
-    background:rgba(41, 3, 44, 0.8);
+    /*background:rgba(41, 3, 44, 0.8);*/
     animation: revelations 1.5s ease-in;
     /*border-bottom: 1px solid purple;*/
 
