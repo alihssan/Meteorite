@@ -1,44 +1,40 @@
-import React, { Component } from 'react';
-import met from "../images/meteor.png";
+import React ,{Component} from 'react'
 
-class Nav extends Component{
-    state={
-        slide: false
+
+export default function MainAnimated(){
+    const style={
+        width:'100%',
+        height:'400px',
+        margin:'0px',
+        scrollBehavior:'smooth',
     }
-    handleScroll=(e)=>{
-        if (window.scrollY>20 && this.state.slide===false) {
-        this.setState({slide:true})
-        } 
-        else if (window.scrollY<10 && this.state.slide===true){
-            this.setState({slide:false})
-
-
-        }
-    }
-    render(){
-        const {slide}=this.state
-        window.addEventListener('scroll',this.handleScroll)
-
-        return(
-        <div className="container">
-            <div className="forhead" style={{backgroundColor: slide===true ? "purple" : "transparent",
-                                             animationName
+    const h1={
+        fontSize:'80px',
+        color:'white',
+        textAlign:'center',
+        marginTop:'10%',
+        opacity:'0.8',
+        marginBottom:'30px',
         
-        }}>
-                 <div className="left">
-                    <img src={met} alt="images" width="50px" height="50px"/>
-                    <p>Meteorite Tavern</p>
-                </div>
-                <div className="right">
-                    <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Links</a></li>
-                    </ul>
-                </div>
-            </div>
+    }
+    const p={
+        fontSize:'40px',
+        color:'orange',
+        textAlign:'center',
+        opacity:'0.8',
+    }
+    
+
+    return(
+        <div className="pic-container" style={style}>
+            <h1 style={h1}>Come Closer To Nature</h1>
+            <p style={p}>Small Body Browser Database API by NASA</p>
+            
         </div>
-        );
+
+
+    )
+
+
+
 }
-}
-export default Nav;

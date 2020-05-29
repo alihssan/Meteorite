@@ -1,0 +1,41 @@
+{
+	"folders": [
+		{
+			"path": "../../reduxpro/reactnd-chirper-app/src/reducers"
+		},
+		{
+			"path": "../../reduxpro/reactnd-chirper-app/src/actions"
+		},
+		{
+			"path": "../../reduxpro/reactnd-chirper-app/src/components"
+		},
+		{
+			"path": "../../reduxpro/reactnd-chirper-app/src/utils"
+		},
+		{
+			"path": "../../reduxpro/reactnd-chirper-app/src"
+		},
+		{
+			"path": "../../pro2/wyr/src/components"
+		},
+		{
+			"path": "../../pro2/wyr/src"
+		},
+		{
+			"path": "../../udacifitness"
+		},
+		{
+			"path": "../../Udredux/Would-You-Rather/wyr/src/components"
+		},
+		{
+			"path": "../../Udredux/Would-You-Rather/wyr/src"
+		},
+		{
+			"path": "../../wouldYouRather"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
