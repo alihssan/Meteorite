@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Meteorite/precache-manifest.353baf7fdb25d1becf03705f92e5f074.js"
+  "/Meteorite/precache-manifest.fb9ee6c5299d6b42be02f718df2f1d30.js"
 );
 
 self.addEventListener('message', (event) => {
