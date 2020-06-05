@@ -1,31 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c64f610e646b94fb5f9c0f94a3fdfb07",
+    "revision": "7781a13b7b7867b20e88a5b383e78ca4",
     "url": "/Meteorite/index.html"
   },
   {
-    "revision": "be8ab654154285e6d51f",
+    "revision": "5e4be7b4e71502b15cce",
     "url": "/Meteorite/static/css/2.5169f0d4.chunk.css"
   },
   {
-    "revision": "713af7aaab45c6da91e2",
-    "url": "/Meteorite/static/css/main.3cbe2b18.chunk.css"
+    "revision": "562ba503c17b559b9571",
+    "url": "/Meteorite/static/css/main.e420858e.chunk.css"
   },
   {
-    "revision": "be8ab654154285e6d51f",
-    "url": "/Meteorite/static/js/2.7c10b495.chunk.js"
+    "revision": "5e4be7b4e71502b15cce",
+    "url": "/Meteorite/static/js/2.dd191511.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/Meteorite/static/js/2.7c10b495.chunk.js.LICENSE.txt"
+    "url": "/Meteorite/static/js/2.dd191511.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "713af7aaab45c6da91e2",
-    "url": "/Meteorite/static/js/main.0c567e3a.chunk.js"
+    "revision": "562ba503c17b559b9571",
+    "url": "/Meteorite/static/js/main.2753bc5a.chunk.js"
   },
   {
     "revision": "cdfc56fba1092ef97628",
     "url": "/Meteorite/static/js/runtime-main.fafff92e.js"
+  },
+  {
+    "revision": "1ed62107a20d129de2ab6dee4fadcb8b",
+    "url": "/Meteorite/static/media/Asteriodapi.1ed62107.txt"
+  },
+  {
+    "revision": "17ebb45e8b5f6eb484a985027ae720f8",
+    "url": "/Meteorite/static/media/aurora.17ebb45e.jpg"
   },
   {
     "revision": "6f6dd496ab92fed21cb275c5e4167e88",
@@ -70,6 +78,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9c74e172f87984c48ddf5c8108cabe67",
     "url": "/Meteorite/static/media/flags.9c74e172.png"
+  },
+  {
+    "revision": "e6ca741fea2e0eb997b853c31be1bb9e",
+    "url": "/Meteorite/static/media/histcov.e6ca741f.jpg"
   },
   {
     "revision": "0ab54153eeeca0ce03978cc463b257f7",
@@ -118,5 +130,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "624c367818427776295d31b42043ad66",
     "url": "/Meteorite/static/media/shower.624c3678.png"
+  },
+  {
+    "revision": "0688b72734094099988e3bfd9729db57",
+    "url": "/Meteorite/static/media/string.0688b727.jpg"
   }
 ]);
